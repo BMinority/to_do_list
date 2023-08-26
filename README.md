@@ -6,10 +6,10 @@ Uma agenda virtual para gerenciar os afazeres do usuário.
 <img src="./Assets/layout.png" alt="imagem_do_app" style="width:400px">
 
 ## Funcionalidades
--[x] Responsividade
--[x] Aramazenamento de dados(temporário)
--[x] Organização por tabela
--[x] Botões funcionais (salvar ou cancelar, editar ou apagar conteúdo)
+- [x] Responsividade
+- [x] Aramazenamento de dados(temporário)
+- [x] Organização por tabela
+- [x] Botões funcionais (salvar ou cancelar, editar ou apagar conteúdo)
 
 ## Tecnologias utilizadas
 - HTML

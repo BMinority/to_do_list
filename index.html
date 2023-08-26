@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="agenda.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Agenda</title>
+</head>
+<body>
+    <div class="container">
+        <div id="lista-tarefas">
+            <header>
+                <h1>Agenda</h1>
+            </header>
+            <form>
+                <label for="atividade">Atividade:</label>
+                <input type="text" id="atividade" required placeholder="Digite o que deseja agendar.">
+                
+                <label for="agendar-data">Dia: </label>
+                <input type="date" id="agendar-data">
+    
+                <label for="data-prazo">Data prazo:</label>
+                <input type="date" id="data-prazo">
+    
+                <div id="btn-acao" class="btn-acao">
+                    <button type="button" id="salvar">Salvar</button>
+                    <button type="button" id="cancelar">Cancelar</button>
+                </div>
+            </form>
+    
+            <table id="tabela">
+                <thead>
+                    <tr class="linha">
+                        <th class="coluna">Atividade</th>
+                        <th class="coluna">Dia agendado</th>
+                        <th class="coluna">Prazo</th>
+                        <th class="coluna">Ações</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+          </table>
+        </div>
+    </div>
+
+    <script src="agenda.js"></script>
+</body>
+</html>
